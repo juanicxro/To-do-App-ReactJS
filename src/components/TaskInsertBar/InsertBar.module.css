@@ -1,0 +1,52 @@
+.Container {
+    width: 736px;
+    height: 54px;
+    display: flex;
+    gap: 8px;
+    margin: -28px;
+}
+
+.Container > input {
+    width: 638px;
+    background-color: var(--gray-500);
+    border-radius: 8px;
+    border: 1px solid var(--gray-700);
+    color: var(--gray-100);
+    font-size: var(--large-text);
+    padding: 16px;
+}
+
+.Container > input::placeholder{
+    color: var(--gray-300);
+}
+
+.Container > input:focus {
+    outline: none;
+    border: 1px solid var(--blue-dark);
+    transition: 0.2s;
+
+}
+
+
+.Container > Button {
+    width: 90px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--blue-dark);
+    cursor: pointer;
+}
+.Container > Button:hover {
+    background-color: var(--blue);
+    transition: 0.2s;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: var(--gray-100);
+    font-weight: bold;
+    font-size: var(--medium-text);
+}
+

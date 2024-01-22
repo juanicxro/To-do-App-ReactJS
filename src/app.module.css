@@ -1,0 +1,12 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--gray-600);
+}
+
+.Container > InsertBar {
+    margin-top: 500px;
+}
